@@ -9,6 +9,7 @@ body{
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  width: 100%;
 }
 h1{
   font-family: "Cormorant Garamond", serif;
@@ -72,7 +73,7 @@ h1{
 @media (max-width:760px) {
   .Container{
     height: 100%;
-    width: 100%;
+    width: 83%;
   }
   #display {
     height: 13vmin;
@@ -82,4 +83,7 @@ h1{
     height: 60px;
     width: 60px;
   }
-}
+  .num-pad{
+    gap: 10px;
+  }
+}   
